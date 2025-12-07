@@ -226,3 +226,61 @@ footer h3 {
   font-weight: 500;
   box-shadow: 3px 5px 10px #aaa;
 }
+/* courses.html */
+main h2 {
+  margin-top: 80px;
+  font-size: 2rem;
+  text-align: center;
+}
+main > p {
+  text-align: center;
+  margin: 20px 0;
+  font-style: italic;
+}
+.course-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 40px;
+  padding: 20px 30px;
+}
+.c-one,
+.c-two {
+  background-color: #212121;
+  padding: 20px 50px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.c-one:hover,
+.c-two:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.course-container h3 {
+  font-size: 1.7rem;
+}
+.full-detail {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: darkcyan;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 5px 0 10px rgb(109, 12, 12);
+}
+.full-detail:hover {
+  background-color: rgb(109, 12, 12);
+  box-shadow: 5px 0 10px darkcyan;
+  color: #ddd;
+}
