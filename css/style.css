@@ -75,7 +75,7 @@ body {
 }
 .btn {
   border: none;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px 20px;
   font-size: 18px;
   font-weight: 400;
@@ -83,6 +83,8 @@ body {
   color: #fff;
   box-shadow: 4px 0 10px rgb(112, 7, 98), 6px 0 10px rgb(73, 6, 64);
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 .explore h2 {
   font-size: 2.1rem;
@@ -117,6 +119,8 @@ body {
   background-color: rgb(6, 13, 73);
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 .course-one:hover {
   box-shadow: 5px 2px 18px #fff;
@@ -279,6 +283,9 @@ main > p {
   font-weight: 600;
   cursor: pointer;
   box-shadow: 5px 0 10px rgb(109, 12, 12);
+  text-decoration: none;
+  display: inline-block;
+  color: #111;
 }
 .full-detail:hover {
   background-color: rgb(109, 12, 12);
@@ -379,4 +386,25 @@ main {
 #log-in:hover {
   color: black;
   background-color: #c93f3f;
+}
+.login-wrapper h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+/* course-details.html */
+main {
+  margin: 20px 40px;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+.enroll {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  color: #ddd;
+  background-color: #a32a2a;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  margin: 50px auto;
 }
