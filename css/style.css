@@ -44,6 +44,7 @@ body {
   border-radius: 20px;
   transition: 0.3s ease;
 }
+
 .list-items a:hover {
   color: #ddd;
   background-color: rgba(255, 255, 255, 0.1);
@@ -346,4 +347,36 @@ main {
   padding: 20px 30px;
   margin-bottom: 40px;
   gap: 10px;
+}
+/* login.html */
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #6b6565;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 10px #ddd;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#log-in {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #a32a2a;
+  cursor: pointer;
+}
+#log-in:hover {
+  color: black;
+  background-color: #c93f3f;
 }
