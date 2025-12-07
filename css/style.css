@@ -284,3 +284,66 @@ main > p {
   box-shadow: 5px 0 10px darkcyan;
   color: #ddd;
 }
+/* apply.html */
+main {
+  margin-top: 90px;
+}
+main h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.form-container {
+  width: 350px;
+  background-color: #212121;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 2px 16px #6b6565;
+}
+form input {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 4px 8px;
+}
+#submit {
+  border: none;
+  border-radius: 5px;
+  padding: 4px 18px;
+  background-color: #000;
+  color: floralwhite;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: crimson;
+  color: aliceblue;
+}
+/* contact.html */
+main {
+  margin-top: 100px;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #333131;
+  width: 300px;
+  margin: 50px auto;
+  box-shadow: 2px 2px 16px #aaa;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  gap: 10px;
+}
