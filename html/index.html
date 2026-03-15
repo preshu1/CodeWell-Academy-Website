@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,22 +6,30 @@
     <title>Codewell Academy</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div id="logo" class="logo">CodeWell Academy</div>
-        <ul class="list-items">
-          <li id="home"><a href="index.html">Home</a></li>
-          <li id="about"><a href="about.html">About</a></li>
-          <li id="courses"><a href="courses.html">Courses</a></li>
-          <li id="apply"><a href="apply.html">Apply</a></li>
-          <li id="blog"><a href="blog.html">Blog</a></li>
-          <li id="contact"><a href="contact.html">Contact</a></li>
+
+        <div class="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li id="btn-login"><a href="login.html">Login</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <div class="hero">
         <div class="hero-content">
@@ -84,5 +92,6 @@
         <p>Designed and Developed by Preshu Shrestha.</p>
       </div>
     </footer>
+    <script src="js/script.js" defer></script>
   </body>
 </html>
